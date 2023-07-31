@@ -1,3 +1,5 @@
+# Title: (golang) Another Filesystem For Exploration (gAFFE)
+
 ### Overview
 
 **gAFFE** is an implementation from scratch of a file system whose architecture is inspired from Frangipani. Every client machine will operate an instance of gAFFE. This gAFFE instance will create a file system that's accessible to applications on that particular machine, with FUSE channeling the application file system tasks to gAFFE. All these gAFFE instances will store file system data in a single "data" server, ensuring all client machines access a consistent shared file system.
