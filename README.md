@@ -87,7 +87,7 @@ func (lp *LockProtocol) Release(lockID int, _ *struct{})
 > Can we extend gAFFE to a system that will allow the user to make modifications to cached data, and create new files and directories, even if it cannot currently talk to the lock server or the data server?
 
 
-### Refrences
+### References
 - Using FUSE with golang: https://blog.gopheracademy.com/advent-2014/fuse-zipfs/
 - LibFuse: https://github.com/libfuse/libfuse
 - Frangipani paper: https://pdos.csail.mit.edu/archive/6.824-2004/papers/thekkath-frangipani.pdf
