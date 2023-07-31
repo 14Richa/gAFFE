@@ -93,3 +93,4 @@ func (lp *LockProtocol) Release(lockID int, _ *struct{})
 - Using FUSE with golang: https://blog.gopheracademy.com/advent-2014/fuse-zipfs/
 - LibFuse: https://github.com/libfuse/libfuse
 - Frangipani paper: https://pdos.csail.mit.edu/archive/6.824-2004/papers/thekkath-frangipani.pdf
+- Distributed Systems Lecture notes: https://pdos.csail.mit.edu/archive/6.824-2012/
